@@ -1,0 +1,16 @@
+%% $Id$
+{application, mysql,
+ [{description, "MySQL"},
+  {vsn, "1.0"},
+  {registered, []
+               },
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {mod, {mysql_app, []}},
+  {env, []}
+  ]}.
+
+%% Local Variables:
+%% mode: erlang
+%% End:
+%% vim: set filetype=erlang tabstop=8:
